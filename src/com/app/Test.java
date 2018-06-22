@@ -4,7 +4,7 @@ public class Test {
 	
 	private int empId;
 	private String empName;
-	private double empSal;
+	
 	
 	
 	public Test() {
@@ -39,19 +39,12 @@ public class Test {
 	}
 
 
-	public double getEmpSal() {
-		return empSal;
-	}
-
-
-	public void setEmpSal(double empSal) {
-		this.empSal = empSal;
-	}
+	
 
 
 	@Override
 	public String toString() {
-		return "Test [empId=" + empId + ", empName=" + empName + ", empSal=" + empSal + "]";
+		return "Test [empId=" + empId + ", empName=" + empName + "]";
 	}
 
 
